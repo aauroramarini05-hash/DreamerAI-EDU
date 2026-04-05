@@ -7,7 +7,6 @@
     <application
         android:allowBackup="true"
         android:label="DreamerAI EDU"
-        android:icon="@mipmap/ic_launcher"
         android:theme="@style/Theme.DreamerAI">
 
         <activity
