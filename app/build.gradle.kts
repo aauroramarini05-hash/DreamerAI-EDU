@@ -1,7 +1,6 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
-    kotlin("kapt")
 }
 
 android {
@@ -10,10 +9,10 @@ android {
 
     defaultConfig {
         applicationId = "com.dreamerai.edu"
-        minSdk = 24
+        minSdk = 21
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 101604
+        versionName = "1.01604"
     }
 
     signingConfigs {
@@ -71,6 +70,4 @@ dependencies {
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
-
-    kapt("androidx.room:room-compiler:2.6.1")
 }
