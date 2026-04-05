@@ -1,4 +1,3 @@
 <resources>
-    <style name="Theme.DreamerAI" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-    </style>
+    <style name="Theme.DreamerAI" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
 </resources>
